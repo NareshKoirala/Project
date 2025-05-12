@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JwfyJq7nXXk=",
+  "dgSpecHash": "PD40O9Hi6Lk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Project-Page.csproj",
+  "projectFilePath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Project-Page.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chels\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\chels\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\",
+  "WorkspaceRootPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\projects\\project-page\\project-page\\views\\home\\contactme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\contactme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\projects\\project-page\\project-page\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Project-Page\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Project-Page\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T04:06:47.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContactMe.cshtml",
-              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Views\\Home\\ContactMe.cshtml",
-              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\ContactMe.cshtml",
-              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Views\\Home\\ContactMe.cshtml*",
-              "RelativeToolTip": "Project-Page\\Views\\Home\\ContactMe.cshtml*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAANAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "Project-Page\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T04:06:12.266Z",
+              "WhenOpened": "2025-05-12T05:15:02.608Z",
               "EditorCaption": ""
             }
           ]

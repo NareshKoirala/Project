@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-Project_Page-30dbabf0-c90a-479e-843c-352bd5acfda6")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project-Page")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d03b867abff685b0c874595d4f199adae8e88155")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project-Page")]

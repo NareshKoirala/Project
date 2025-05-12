@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Project-Page.csproj": {}
+    "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Project-Page.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Project-Page.csproj": {
+    "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Project-Page.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Project-Page.csproj",
+        "projectUniqueName": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Project-Page.csproj",
         "projectName": "Project-Page",
-        "projectPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\Project-Page.csproj",
+        "projectPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Project-Page.csproj",
         "packagesPath": "C:\\Users\\chels\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Projects\\Project-Page\\Project-Page\\obj\\",
+        "outputPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
