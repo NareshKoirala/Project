@@ -1,6 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using MongoDB.Driver.Core.Configuration;
+using Project_Page.Controllers;
 using Project_Page.Data;
+using Project_Page.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,5 +44,27 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+
+try
+{
+    var mongoService = new MongoDBService();
+
+    // Insert sample data
+    var newUser = new Users
+    {
+        Name = "John Doe",
+        Email = "sdgui@nait.ca",
+        Username = "johndoe",
+        Password = "password123",
+        Role = "User"
+    };
+
+    await mongoService.InsertUserAsync(newUser);
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"An error occurred: {ex.Message}");
+}
 
 app.Run();

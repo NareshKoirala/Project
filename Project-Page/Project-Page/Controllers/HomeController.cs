@@ -15,6 +15,7 @@ namespace Project_Page.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 

@@ -312,3 +312,16 @@ C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\obj\D
 C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\obj\Debug\net8.0\Project-Page.pdb
 C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\obj\Debug\net8.0\Project-Page.genruntimeconfig.cache
 C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\obj\Debug\net8.0\ref\Project-Page.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\DnsClient.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\Snappier.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\chels\OneDrive\Desktop\MineRepo\Project\Project-Page\Project-Page\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
