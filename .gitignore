@@ -1,0 +1,43 @@
+# Ignore ASP.NET Core appsettings files
+appsettings.json
+appsettings.*.json
+
+# .NET Core build output
+bin/
+obj/
+
+# Visual Studio files
+.vscode/
+.idea/
+*.sln
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+logs/
+
+# User-specific files
+*.cache
+*.db
+
+# Environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+node_modules/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
