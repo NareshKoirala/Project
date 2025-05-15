@@ -46,25 +46,25 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 
-try
-{
-    var mongoService = new MongoDBService();
+//try
+//{
+//    var mongoService = new MongoDBService();
 
-    // Insert sample data
-    var newUser = new Users
-    {
-        Name = "John Doe",
-        Email = "sdgui@nait.ca",
-        Username = "johndoe",
-        Password = "password123",
-        Role = "User"
-    };
+//    // Insert sample data
+//    var newUser = new Users
+//    {
+//        Name = "John Doe",
+//        Email = "sdgui@nait.ca",
+//        Username = "johndoe",
+//        Password = "password123",
+//        Role = "User"
+//    };
 
-    await mongoService.InsertUserAsync(newUser);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"An error occurred: {ex.Message}");
-}
+//    await mongoService.InsertUserAsync(newUser);
+//}
+//catch (Exception ex)
+//{
+//    Console.WriteLine($"An error occurred: {ex.Message}");
+//}
 
 app.Run();

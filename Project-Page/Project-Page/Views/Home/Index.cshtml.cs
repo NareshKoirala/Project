@@ -8,6 +8,10 @@ namespace Project_Page.Views.Home
         {
         }
 
-
+        public void test()
+        {
+            // This is a test method
+            // You can add your test logic here
+        }
     }
 }
