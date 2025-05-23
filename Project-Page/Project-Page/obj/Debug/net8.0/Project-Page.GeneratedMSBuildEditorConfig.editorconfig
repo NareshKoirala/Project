@@ -24,16 +24,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chels/OneDrive/Desktop/MineRepo/Project/Project-Page/Project-Page/Views/Home/AddProject.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcm9qZWN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/chels/OneDrive/Desktop/MineRepo/Project/Project-Page/Project-Page/Views/Home/ContactMe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0TWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/chels/OneDrive/Desktop/MineRepo/Project/Project-Page/Project-Page/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chels/OneDrive/Desktop/MineRepo/Project/Project-Page/Project-Page/Views/Home/ProjectOption.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0T3B0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/chels/OneDrive/Desktop/MineRepo/Project/Project-Page/Project-Page/Views/Shared/Error.cshtml]

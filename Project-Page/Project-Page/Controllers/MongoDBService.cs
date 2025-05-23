@@ -11,24 +11,16 @@ namespace Project_Page.Controllers
         private readonly IMongoCollection<Users> _usersCollection;
         private readonly IMongoCollection<Projects> _projectCollection;
 
-        public MongoDBService(string DB, string CL)
+        public MongoDBService()
         {
             try
             {
                 // Connection string - replace with your MongoDB connection details
                 var connectionString = "mongodb+srv://chelseanaresh10:Ivo8RG6aWWyX9bhl@nareshdb.7svphii.mongodb.net/?retryWrites=true&w=majority&appName=NareshDB";
                 var client = new MongoClient(connectionString);
-                var database = client.GetDatabase(DB);
-
-                if (DB == "User")
-                {
-                    _usersCollection = database.GetCollection<Users>(CL);
-                }
-                else
-                {
-                    _projectCollection = database.GetCollection<Projects>(CL);
-                }
-
+                var database = client.GetDatabase("Project_Page");
+                _projectCollection = database.GetCollection<Projects>("Project");
+                _usersCollection = database.GetCollection<Users>("User");
             }
             catch (Exception ex)
             {
@@ -54,6 +46,28 @@ namespace Project_Page.Controllers
         /// 
         /// </summary>
         /// <param name="email"></param>
+        /// <returns></returns>
+        public string RoleCheck(string email)
+        {
+            var filter = Builders<Users>.Filter.Eq(u => u.email, email);
+            var user = _usersCollection.Find(filter).FirstOrDefault();
+            if (user != null)
+            {
+                return user.role;
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("User not found");
+                Console.ResetColor();
+                return string.Empty;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="email"></param>
         /// <param name="password"></param>
         /// <returns></returns>
         public async Task<bool> LogInCred(string email, string password)
@@ -69,7 +83,7 @@ namespace Project_Page.Controllers
                 email = email.Trim().ToLowerInvariant();
 
                 // Use equality filter instead of regex
-                var filter = Builders<Users>.Filter.Eq(u => u.Email, email);
+                var filter = Builders<Users>.Filter.Eq(u => u.email, email);
 
                 // Fetch a single user
                 var user = await _usersCollection
@@ -89,9 +103,7 @@ namespace Project_Page.Controllers
                 }
 
                 // Verify hashed password (assuming Password is a hashed password)
-                bool passwordValid = user.Password == password;
-
-                return passwordValid;
+                return user.password == password;
             }
             catch (Exception ex)
             {
@@ -103,7 +115,7 @@ namespace Project_Page.Controllers
         
         public async Task UserInsertCheck(Users _user) 
         {
-            var filter = Builders<Users>.Filter.Eq(u => u.Email, _user.Email);
+            var filter = Builders<Users>.Filter.Eq(u => u.email, _user.email);
             var user = await _usersCollection.FindAsync(filter);
 
             if (user != null)
@@ -114,7 +126,7 @@ namespace Project_Page.Controllers
                 return;
             }
             
-            filter = Builders<Users>.Filter.Eq(u => u.Username, _user.Username);
+            filter = Builders<Users>.Filter.Eq(u => u.username, _user.username);
 
             await InsertUserAsync(_user);
         }

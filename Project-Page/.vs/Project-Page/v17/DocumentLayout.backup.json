@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\home\\addproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\addproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\home\\contactme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\contactme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\home\\projectoption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\projectoption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\controllers\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\controllers\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\home\\addproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\addproject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\models\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\models\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\project-page\\project-page\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C40566E-8E54-43CB-9AED-A473CC483DA2}|Project-Page\\Project-Page.csproj|solutionrelative:project-page\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,65 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactMe.cshtml",
-              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\ContactMe.cshtml",
-              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\ContactMe.cshtml",
-              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\ContactMe.cshtml",
-              "RelativeToolTip": "Project-Page\\Views\\Home\\ContactMe.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T17:31:43.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddProject.cshtml",
-              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\AddProject.cshtml",
-              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\AddProject.cshtml",
-              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\AddProject.cshtml*",
-              "RelativeToolTip": "Project-Page\\Views\\Home\\AddProject.cshtml*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T16:44:35.204Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Program.cs",
+              "RelativeDocumentMoniker": "Project-Page\\Program.cs",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Program.cs",
+              "RelativeToolTip": "Project-Page\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T23:23:31.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projects.cs",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Models\\Projects.cs",
+              "RelativeDocumentMoniker": "Project-Page\\Models\\Projects.cs",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Models\\Projects.cs",
+              "RelativeToolTip": "Project-Page\\Models\\Projects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:28:00.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Project-Page\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Models\\Users.cs",
+              "RelativeToolTip": "Project-Page\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:27:26.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Project-Page\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Project-Page\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswCYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T17:27:21.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T20:23:39.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddProject.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\AddProject.cshtml.cs",
-              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\AddProject.cshtml.cs",
-              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\AddProject.cshtml.cs",
-              "RelativeToolTip": "Project-Page\\Views\\Home\\AddProject.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project-Page\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T20:19:02.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectOption.cshtml",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\ProjectOption.cshtml",
+              "RelativeDocumentMoniker": "Project-Page\\Views\\Home\\ProjectOption.cshtml",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Views\\Home\\ProjectOption.cshtml",
+              "RelativeToolTip": "Project-Page\\Views\\Home\\ProjectOption.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T20:18:55.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoDBService.cs",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Controllers\\MongoDBService.cs",
+              "RelativeDocumentMoniker": "Project-Page\\Controllers\\MongoDBService.cs",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Project-Page\\Project-Page\\Controllers\\MongoDBService.cs",
+              "RelativeToolTip": "Project-Page\\Controllers\\MongoDBService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T17:24:37.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T20:16:59.608Z"
             }
           ]
         }

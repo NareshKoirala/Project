@@ -1,15 +1,8 @@
 ﻿@using Project_Page.Controllers
 @using Project_Page.Views
 @{
-
     ViewData["Title"] = "Home Page";
-
-    var projDB = new MongoDBService("Projects", "Project");
-
-
-
-    // Sample project data (could be passed from the controller in a real application)
-    var projects = projDB.ProjectLS();
+    var _collection = new MongoDBService();
 }
 
 <!DOCTYPE html>
@@ -79,9 +72,9 @@
             <h2 class="text-center my-5">Projects in Progress</h2>
             <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                @foreach (var project in projects) 
+                @foreach (var project in _collection.ProjectLS()) 
                 {
-                    if(project.Name == "Empty" && projects.Count > 1)
+                    if(project.Name == "Empty" && _collection.ProjectLS().Count > 1)
                         continue;
 
                     <div class="col">
