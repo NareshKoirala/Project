@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|solutionrelative:telegram\\components\\pages\\firstpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\telegram_clone\\telegram\\components\\pages\\loginphone.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|solutionrelative:telegram\\components\\pages\\loginphone.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\telegram_clone\\telegram\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|solutionrelative:telegram\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\telegram_clone\\telegram\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|solutionrelative:telegram\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\telegram_clone\\telegram\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|solutionrelative:telegram\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|c:\\users\\chels\\onedrive\\desktop\\minerepo\\project\\telegram_clone\\telegram\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ED5B456F-1718-4E8D-AA41-66C31D66EE75}|Telegram\\Telegram.csproj|solutionrelative:telegram\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogInPhone.razor",
+              "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Pages\\LogInPhone.razor",
+              "RelativeDocumentMoniker": "Telegram\\Components\\Pages\\LogInPhone.razor",
+              "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Pages\\LogInPhone.razor",
+              "RelativeToolTip": "Telegram\\Components\\Pages\\LogInPhone.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-23T02:33:45.854Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +53,14 @@
               "RelativeDocumentMoniker": "Telegram\\Components\\Pages\\FirstPage.razor",
               "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Pages\\FirstPage.razor",
               "RelativeToolTip": "Telegram\\Components\\Pages\\FirstPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-23T01:47:18.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Telegram\\Components\\Pages\\Home.razor",
@@ -51,25 +68,24 @@
               "RelativeToolTip": "Telegram\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T01:46:17.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T01:46:17.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "Telegram\\Components\\Layout\\MainLayout.razor",
               "ToolTip": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Layout\\MainLayout.razor",
               "RelativeToolTip": "Telegram\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-23T01:45:58.704Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\chels\\OneDrive\\Desktop\\MineRepo\\Project\\Telegram_Clone\\Telegram\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Telegram\\Components\\Layout\\NavMenu.razor",
@@ -77,8 +93,7 @@
               "RelativeToolTip": "Telegram\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-23T01:45:41.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T01:45:41.945Z"
             }
           ]
         }

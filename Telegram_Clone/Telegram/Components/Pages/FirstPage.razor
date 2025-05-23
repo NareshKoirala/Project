@@ -1,3 +1,39 @@
-﻿@page "/firstLook"
+﻿@page "/welcome"
+@inject NavigationManager NavigationManager
 
-<img src="" />
+<PageTitle>Welcome</PageTitle>
+
+<style>
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    button:hover {
+        background-color: #3476e2;
+    }
+
+    .bg-gradient {
+        background: linear-gradient(45deg, #1562df, #3476e2);
+    }
+</style>
+
+<img src="/image/divImage.png" alt="Telegram Desktop Logo" />
+
+<div class="text-center m-4">
+    <h1 class="text-center">Telegram Desktop</h1>
+    <p class="text-center">Welcome to Clone Telegram Desktop.<br>Made By: Naresh Koirala</p>
+    <button class="m-3 bg-gradient" style="background-color:#1562df; border:none; color:white; padding:1% 20% 1%;" @onclick="NavToLogIn">
+        Start Messaging
+    </button>
+</div>
+
+
+@code {
+    private void NavToLogIn()
+    {
+        NavigationManager.NavigateTo("/LogInPhone");
+    }
+}
