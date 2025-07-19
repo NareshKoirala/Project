@@ -1,30 +1,99 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿<style>
+    p {
+        margin: 0; /* Remove default margin for better alignment */
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+        .nav-link:hover {
+            background-color: #2a3b47; /* Hover effect */
+            color: white;
+        }
+
+        .nav-link .bi {
+            margin-right: 10px; /* Space between icon and text */
+            font-size: 1rem;
+        }
+
+    .navbar-dark {
+        background-color: #1a3c70; /* Matches Telegram's dark blue */
+    }
+</style>
+
+@* Navbar with toggler *@
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Telegram</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <p style="color:white;">@Username</p>
     </div>
 </div>
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
-
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+@* Scrollable navigation menu *@
+<div class="nav-scrollable" id="navMenu">
     <nav class="flex-column">
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            <hr>
+            <NavLink class="nav-link" href="#">
+                <span class="bi-person-circle m-4" aria-hidden="true"></span>My Profile
+            </NavLink>
+            <hr>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="bi-people m-4" aria-hidden="true"></span> New Group
             </NavLink>
         </div>
 
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="#">
+                <span class="bi-megaphone m-4" aria-hidden="true"></span> New Channel
             </NavLink>
         </div>
 
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            <NavLink class="nav-link" href="#">
+                <span class="bi-person m-4" aria-hidden="true"></span> Contacts
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="bi-telephone m-4" aria-hidden="true"></span> Calls
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="bi-bookmark m-4" aria-hidden="true"></span> Saved Messages
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="bi-gear m-4" aria-hidden="true"></span> Settings
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="#">
+                <span class="bi-moon m-4" aria-hidden="true"></span> Night Mode
+                @* <input type=""></input> *@
             </NavLink>
         </div>
     </nav>
+
+    <footer style="padding:10%;">
+        <p style="color:gray; font-size:small;">Telegram Desktop<br>Version 69.6.9 x69-About</p>
+    </footer>
 </div>
 
+@code {
+    private string Username { get; set; } = "Naresh Koirala"; // Replace with dynamic user data
+}
