@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Resume_Builder_MAUI.View.UserInput"
+             Title="User Input"
+             BackgroundColor="#110e17">
+
+
+    <ScrollView Padding="50">
+        <Border
+                Background="#1a1622"
+                StrokeShape="RoundRectangle 18"
+                Padding="24"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+
+            <VerticalStackLayout
+                    Padding="0"
+                    Spacing="25"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+
+                <Label 
+                        Text="Welcome to User Input Section"
+                        FontAttributes="Bold"
+                        FontSize="Header"
+                        TextColor="AliceBlue"
+                        Padding="20"
+                        HorizontalOptions="Center"/>
+
+                <BoxView HeightRequest="2" Color="#A259F7" WidthRequest="600" HorizontalOptions="Center" />
+
+                <!-- Name and Age Row -->
+                <HorizontalStackLayout Spacing="15">
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="First Name:" TextColor="White" />
+                        <Entry x:Name="FirstNameEntry" Placeholder="First Name" HorizontalOptions="Fill" Text="{Binding }}"/>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="Last Name:" TextColor="White" />
+                        <Entry x:Name="LastNameEntry" Placeholder="Last Name" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <!-- Contact Info Row -->
+                <HorizontalStackLayout Spacing="15">
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="Email:" TextColor="White" />
+                        <Entry x:Name="EmailEntry" Placeholder="Email" Keyboard="Email" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="Mobile:" TextColor="White" />
+                        <Entry x:Name="MobileEntry" Placeholder="Mobile Number" Keyboard="Numeric" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <!-- Location and Job Field -->
+                <HorizontalStackLayout Spacing="15">
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="Location:" TextColor="White" />
+                        <Entry x:Name="LocationEntry" Placeholder="Location" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="Job Field:" TextColor="White" />
+                        <Entry x:Name="JobFieldEntry" Placeholder="Job Field" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <!-- Portfolio and LinkedIn -->
+                <HorizontalStackLayout Spacing="15">
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="Portfolio Website:" TextColor="White" />
+                        <Entry x:Name="PortfolioEntry" Placeholder="Portfolio URL" Keyboard="Url" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                    <VerticalStackLayout WidthRequest="332">
+                        <Label Text="LinkedIn:" TextColor="White" />
+                        <Entry x:Name="LinkedInEntry" Placeholder="LinkedIn URL" Keyboard="Url" HorizontalOptions="Fill" />
+                    </VerticalStackLayout>
+                </HorizontalStackLayout>
+
+                <!-- Education Section -->
+                <BoxView HeightRequest="2" Color="#A259F7" WidthRequest="600" HorizontalOptions="Center" />
+                <VerticalStackLayout x:Name="EducationSection" Spacing="10">
+                    <Label Text="Education" FontAttributes="Bold" FontSize="16" TextColor="AliceBlue" />
+                    <Entry Placeholder="Institution Name" HorizontalOptions="Fill" />
+                    <Entry Placeholder="Location" HorizontalOptions="Fill" />
+                    <Entry Placeholder="Date (e.g. 2020-2024)" HorizontalOptions="Fill" />
+                    <Editor Placeholder="What did you learn?" AutoSize="TextChanges" HeightRequest="60" HorizontalOptions="Fill" />
+                </VerticalStackLayout>
+                <Button Text="Add More Education"
+                            Clicked="OnAddEducationClicked"
+                            HorizontalOptions="End"
+                            BackgroundColor="#A259F7"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="12"
+                            HeightRequest="40"
+                            WidthRequest="220"
+                            Margin="0,8,0,0" />
+
+                <!-- Work Experience Section -->
+                <BoxView HeightRequest="2" Color="#A259F7" WidthRequest="600" HorizontalOptions="Center" />
+                <VerticalStackLayout x:Name="WorkSection" Spacing="10">
+                    <Label Text="Work Experience" FontAttributes="Bold" FontSize="16" TextColor="AliceBlue" />
+                    <Entry Placeholder="Company Name" HorizontalOptions="Fill" />
+                    <Entry Placeholder="Location" HorizontalOptions="Fill" />
+                    <Entry Placeholder="Date (e.g. 2022-2025)" HorizontalOptions="Fill" />
+                    <Editor Placeholder="What did you learn?" AutoSize="TextChanges" HeightRequest="60" HorizontalOptions="Fill" />
+                </VerticalStackLayout>
+                <Button Text="Add More Work Experience"
+                            Clicked="OnAddWorkClicked"
+                            HorizontalOptions="End"
+                            BackgroundColor="#A259F7"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="12"
+                            HeightRequest="40"
+                            WidthRequest="220"
+                            Margin="0,8,0,0" />
+
+                <!-- Certificates Section -->
+                <BoxView HeightRequest="2" Color="#A259F7" WidthRequest="600" HorizontalOptions="Center" />
+                <VerticalStackLayout x:Name="CertificateSection" Spacing="10">
+                    <Label Text="Certificates" FontAttributes="Bold" FontSize="16" TextColor="AliceBlue" />
+                    <Entry Placeholder="Certificate Name" HorizontalOptions="Fill" />
+                    <Editor Placeholder="Details (optional)" AutoSize="TextChanges" HeightRequest="40" HorizontalOptions="Fill" />
+                </VerticalStackLayout>
+                <Button Text="Add More Certificate"
+                            Clicked="OnAddCertificateClicked"
+                            HorizontalOptions="End"
+                            BackgroundColor="#A259F7"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            CornerRadius="12"
+                            HeightRequest="40"
+                            WidthRequest="220"
+                            Margin="0,8,0,0" />
+
+                <BoxView HeightRequest="2" Color="#A259F7" WidthRequest="600" HorizontalOptions="Center" />
+
+                <Button 
+                        Text="Submit"
+                        Clicked="SubmitUserInfo"
+                        HorizontalOptions="Center"
+                        FontAttributes="Bold"
+                        BackgroundColor="#A259F7"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        WidthRequest="320"
+                        Margin="0,24,0,0" />
+
+            </VerticalStackLayout>
+        </Border>
+    </ScrollView>
+</ContentPage>
