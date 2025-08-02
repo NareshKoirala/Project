@@ -5,13 +5,14 @@
              xmlns:local="clr-namespace:Resume_Builder_MAUI"
              BackgroundColor="#110e17">
 
-    <ScrollView Padding="50">
+    <ScrollView Padding="10">
         <Border
             Background="#1a1622"
-            StrokeShape="RoundRectangle 18"
-            Padding="24"
+            StrokeShape="RoundRectangle 10"
+            Padding="50"
             HorizontalOptions="Center"
             VerticalOptions="Center">
+            
             <VerticalStackLayout
                 VerticalOptions="Center"
                 Spacing="25">
@@ -28,21 +29,23 @@
                 <Label 
                     Padding="20"
                     Text="Resume Builder"
-                    FontSize="Header"
+                    FontSize="30"
                     FontAttributes="Bold"
                     TextColor="AliceBlue"
                     HorizontalOptions="Center"
                     SemanticProperties.HeadingLevel="Level1" />
                 
                 <BoxView HeightRequest="2" Color="#A259F7" WidthRequest="600" HorizontalOptions="Center" />
-
+                
                 <Label
                     Text="Welcome to Job Listing App With Custom Resume and Cover Letter Builder."
                     FontSize="15"
                     TextColor="White"
                     Padding="20,12"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"/>
+                    VerticalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"/>
 
                 <Button
                     x:Name="NavToUserInfoPage"
@@ -52,10 +55,10 @@
                     BackgroundColor="#A259F7"
                     TextColor="White"
                     FontAttributes="Bold"
-                    CornerRadius="12"
                     HeightRequest="50"
-                    WidthRequest="320"
-                    Margin="0,24,0,0" />
+                    WidthRequest="320"/>
+
+
 
             </VerticalStackLayout>
         </Border>

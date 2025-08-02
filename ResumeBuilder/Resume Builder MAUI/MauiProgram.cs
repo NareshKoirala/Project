@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using CommunityToolkit.Maui;
 
 namespace Resume_Builder_MAUI
 {
@@ -18,6 +19,8 @@ namespace Resume_Builder_MAUI
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+
+            builder.UseMauiApp<App>().UseMauiCommunityToolkit();
 
             return builder.Build();
         }

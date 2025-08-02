@@ -1,38 +1,204 @@
+using Resume_Builder_MAUI.ViewModel;
 using Resume_Builder_MAUI.Model;
-using System.Threading.Tasks;
+using Resume_Builder_MAUI.Services;
 
 namespace Resume_Builder_MAUI.View;
 
 public partial class UserInput : ContentPage
 {
-    private UserModel user = new();
+    private UserViewModel ViewModel { get; set; } = new UserViewModel();
+
     public UserInput()
     {
         InitializeComponent();
-        BindingContext = user;
+        BindingContext = ViewModel;
+
+        EducationSection.BindingContext = ViewModel.educationEntry;
+        WorkSection.BindingContext = ViewModel.workEntry;
+        CertificateSection.BindingContext = ViewModel.certificateEntry;
+        SkillSection.BindingContext = ViewModel.skillEntry;
+        ProjectSection.BindingContext = ViewModel.projectEntry;
     }
 
-    private async void GoHome(object sender, EventArgs e)
+    private void ToggleEducationButton_Clicked(object sender, EventArgs e)
     {
-        // Logic to handle background tap, if needed
-        await DisplayAlert("Success", "Your tapped successfully!", "OK");
+        ToggleEducationButton.Source = EducationDropdown.IsVisible ? "arrow_downward.png" : "arrow_upward.png";
+        EducationDropdown.IsVisible = !EducationDropdown.IsVisible;
     }
 
-    private void OnAddEducationClicked(object sender, EventArgs e)
+    private void ToggleWorkButton_Clicked(object sender, EventArgs e)
     {
-        // Logic to add education details
+        ToggleWorkButton.Source = WorkDropdown.IsVisible ? "arrow_downward.png" : "arrow_upward.png";
+        WorkDropdown.IsVisible = !WorkDropdown.IsVisible;
     }
-    private void OnAddWorkClicked(object sender, EventArgs e)
+
+    private void ToggleCertificateButton_Clicked(object sender, EventArgs e)
     {
-        // Logic to add work experience details
+        ToggleCertificateButton.Source = CertificateDropdown.IsVisible ? "arrow_downward.png" : "arrow_upward.png";
+        CertificateDropdown.IsVisible = !CertificateDropdown.IsVisible;
     }
-    private void OnAddCertificateClicked(object sender, EventArgs e)
+
+    private void ToggleSkillButton_Clicked(object sender, EventArgs e)
     {
-        // Logic to add work experience details
+        ToggleSkillButton.Source = SkillDropdown.IsVisible ? "arrow_downward.png" : "arrow_upward.png";
+        SkillDropdown.IsVisible = !SkillDropdown.IsVisible;
     }
+
+    private void ToggleProjectButton_Clicked(object sender, EventArgs e)
+    {
+        ToggleProjectButton.Source = ProjectDropdown.IsVisible ? "arrow_downward.png" : "arrow_upward.png";
+        ProjectDropdown.IsVisible = !ProjectDropdown.IsVisible;
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
+    private async void OnAddEducationClicked(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
+    {
+        if (string.IsNullOrWhiteSpace(ViewModel.educationEntry.InstitutionName) ||
+            string.IsNullOrWhiteSpace(ViewModel.educationEntry.Location) ||
+            string.IsNullOrWhiteSpace(ViewModel.educationEntry.Date))
+        {
+            await DisplayAlert("Error", "Please fill in all fields for education entry.", "OK");
+            return;
+        }
+
+        AddEducationBTN.Text = "Add Additional Education";
+        await GlobalVarables.service.SaveEducationAsync(ViewModel.educationEntry);
+
+        ViewModel.Education.Add(new EducationEntry
+        {
+            InstitutionName = ViewModel.educationEntry.InstitutionName,
+            Location = ViewModel.educationEntry.Location,
+            Date = ViewModel.educationEntry.Date,
+            Details = ViewModel.educationEntry.Details
+        });
+        ViewModel.educationEntry = new EducationEntry();
+        EducationSection.BindingContext = ViewModel.educationEntry;
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
+    private async void OnAddWorkClicked(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
+    {
+        if (string.IsNullOrWhiteSpace(ViewModel.workEntry.CompanyName) ||
+            string.IsNullOrWhiteSpace(ViewModel.workEntry.Location) ||
+            string.IsNullOrWhiteSpace(ViewModel.workEntry.Date))
+        {
+            await DisplayAlert("Error", "Please fill in all fields for work entry.", "OK");
+            return;
+        }
+
+        AddWorkBTN.Text = "Add Additional Work/Project Experience";
+        await GlobalVarables.service.SaveWorkAsync(ViewModel.workEntry);
+
+        ViewModel.WorkExperience.Add(new WorkEntry
+        {
+            CompanyName = ViewModel.workEntry.CompanyName,
+            Location = ViewModel.workEntry.Location,
+            Date = ViewModel.workEntry.Date,
+            Details = ViewModel.workEntry.Details
+        });
+        ViewModel.workEntry = new WorkEntry();
+        WorkSection.BindingContext = ViewModel.workEntry;
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
+    private async void OnAddCertificateClicked(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
+    {
+        if (string.IsNullOrWhiteSpace(ViewModel.certificateEntry.CertificateName) ||
+            string.IsNullOrWhiteSpace(ViewModel.certificateEntry.Details))
+        {
+            await DisplayAlert("Error", "Please fill in all fields for certificate entry.", "OK");
+            return;
+        }
+
+        AddCertBTN.Text = "Add Additional Certificate";
+        await GlobalVarables.service.SaveCertificationAsync(ViewModel.certificateEntry);
+
+        ViewModel.Certificates.Add(new CertificateEntry
+        {
+            CertificateName = ViewModel.certificateEntry.CertificateName,
+            Details = ViewModel.certificateEntry.Details
+        });
+        ViewModel.certificateEntry = new CertificateEntry();
+        CertificateSection.BindingContext = ViewModel.certificateEntry;
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
+    private async void OnAddSkillClicked(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
+    {
+        if (string.IsNullOrWhiteSpace(ViewModel.skillEntry.SkillName))
+        {
+            await DisplayAlert("Error", "Please enter a skill name.", "OK");
+            return;
+        }
+
+        AddSkillBTN.Text = "Add Additional Skill";
+        await GlobalVarables.service.SaveSkillAsync(ViewModel.skillEntry);
+
+        ViewModel.Skills.Add(new SkillEntry
+        {
+            SkillName = ViewModel.skillEntry.SkillName
+        });
+        ViewModel.skillEntry = new SkillEntry();
+        SkillSection.BindingContext = ViewModel.skillEntry;
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
+    private async void OnAddProjectClicked(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
+    {
+        if (string.IsNullOrWhiteSpace(ViewModel.projectEntry.ProjectName) ||
+            string.IsNullOrWhiteSpace(ViewModel.projectEntry.Description))
+        {
+            await DisplayAlert("Error", "Please fill in all fields for project entry.", "OK");
+            return;
+        }
+
+        AddProjectBTN.Text = "Add Additional Project";
+        await GlobalVarables.service.SaveProjectAsync(ViewModel.projectEntry);
+
+        ViewModel.Projects.Add(new ProjectEntry
+        {
+            ProjectName = ViewModel.projectEntry.ProjectName,
+            Description = ViewModel.projectEntry.Description
+        });
+        ViewModel.projectEntry = new ProjectEntry();
+        ProjectSection.BindingContext = ViewModel.projectEntry;
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
     private async void SubmitUserInfo(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
     {
-        // Logic to add skills
-        await DisplayAlert("Success", "Your resume has been created successfully!", "OK");
+        if (GlobalVarables.stringErrorMsg == string.Empty)
+        {
+            await DisplayAlert("Success", $"Thank You {ViewModel.FirstName}", "OK");
+            GlobalVarables.ValidSubmission = true;
+            GlobalVarables.userInfo = ViewModel.Clone();
+            await GlobalVarables.service.SaveUserAsync(ViewModel.User);
+            GlobalVarables.jobsInfo = await JobsViewModel.FetchJobsAsync();
+            await Shell.Current.GoToAsync("//MainDashboard");
+        }
+        else
+        {
+            await DisplayAlert("Error", "Please fix these: " + GlobalVarables.stringErrorMsg, "OK");
+        }
+    }
+
+#pragma warning disable VSTHRD100 // Avoid async void methods
+    private async void LocationItemChanged(object sender, EventArgs e)
+#pragma warning restore VSTHRD100 // Avoid async void methods
+    {
+        if (string.IsNullOrWhiteSpace(ViewModel.Location))
+        {
+            await DisplayAlert("Error", "Please enter a valid location.", "OK");
+            return;
+        }
+        ProvincePicker.IsVisible = true;
+        ViewModel.CountryProvinces.TryGetValue(ViewModel.Location, out var province);
+        ProvincePicker.ItemsSource = province;
     }
 }

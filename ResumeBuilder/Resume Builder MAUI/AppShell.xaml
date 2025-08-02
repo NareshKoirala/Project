@@ -19,4 +19,26 @@
         ContentTemplate="{DataTemplate views:UserInput}"
         Route="UserInput" />
 
+    <TabBar>
+
+        <ShellContent
+            Title="User"
+            Icon="tabbar_user.png"
+            ContentTemplate="{DataTemplate views:UserSetting}"
+            Route="UserSetting" />
+        
+        <ShellContent
+            Title="Dash Board"
+            Icon="tabbar_home.png"
+            ContentTemplate="{DataTemplate views:MainDashboard}"
+            Route="MainDashboard" />
+
+        <ShellContent
+            Title="Jobs"
+            Icon="tabbar_dataset.png"
+            ContentTemplate="{DataTemplate views:DocsGen}"
+            Route="DocsGen" />
+        
+    </TabBar>
+
 </Shell>
